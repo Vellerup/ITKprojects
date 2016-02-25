@@ -51,7 +51,7 @@ function get_harvest($url){
     //echo $url;
     /*
      *
-     $credentials = "mvel@aarhus.dk:Ddb12345";
+     $credentials = "";
     $headers = array(
         "Content-type: application/xml",
         "Accept: application/xml",
@@ -84,9 +84,7 @@ function get_harvest($url){
 
 function get_project(){
     //echo "dette er en test3";
-    $jiraurl = "https://itkdev.atlassian.net";
-    $username = "vellerup";
-    $password = "vonand1978";
+  
 
     $api_url = $jiraurl . '/rest/api/latest/project';
 
